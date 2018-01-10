@@ -22,7 +22,7 @@
 
 [Подробнее про Modules](./upCss-modules.md)
 
-### ApplicationЦЦ
+### Application
 Непосредственно раздел со всеми стилями Вашего приложения.
 
 **layouts**
