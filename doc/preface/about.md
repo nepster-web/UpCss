@@ -45,4 +45,4 @@
 
 [Вернуться назад к Вступлению](./introduction.md)
 
-[Перейти к изучению UpCss](../core/structure.md)
+[Перейти к изучению структуры UpCss](../core/structure.md)
