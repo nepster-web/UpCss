@@ -22,7 +22,7 @@
         * [приложение](./doc/core/upCss-application.md)
         * [модули](./doc/core/upCss-modules.md)
 * **Дополнительно**
-    * [модули](./doc/additionally/work-with-selectors.md)
+    * [Работа с селекторами](./doc/additionally/work-with-selectors.md)
 
 
 ## Пример

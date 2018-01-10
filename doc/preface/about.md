@@ -43,6 +43,6 @@
 
 --------
 
-[Перейти к изучению UpCss](../core/structure.md)
-
 [Вернуться назад к Вступлению](./introduction.md)
+
+[Перейти к изучению UpCss](../core/structure.md)
