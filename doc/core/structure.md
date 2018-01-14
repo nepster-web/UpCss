@@ -5,14 +5,15 @@
 * base
 * modules
 * application
+  * sections
   * layouts
   * pages
-  * sections
 
-Далее рассмотрим каждый раздел индивидуально.
+Далее рассмотрим каждый каталог индивидуально.
 
 ### Base
-В стадии наполнения...
+Общие и базовые CSS-стили приложения. Например: компоненты framework`а,
+reset-стили (или normalize-стили), конфигурации и другое. 
 
 [Подробнее про Base](./upCss-base.md)
 
@@ -25,14 +26,18 @@
 ### Application
 Непосредственно раздел со всеми стилями Вашего приложения.
 
+**sections**
+Основные составляющие страницы. Ими может быть header, footer, sidebar, 
+navigation и другие секции, которые могут использоваться на разных страницах 
+приложения. 
+
 **layouts**
-В стадии наполнения...
+Стили, которые необходимы для формирования общего каркаса для страниц 
+приложения.
 
 **pages**
-В стадии наполнения...
-
-**sections**
-В стадии наполнения...
+Стили, непосредственно, применяемые к страницам приложения, которые 
+не могут быть переиспользованы.
 
 [Подробнее про Application](./upCss-application.md)
 
@@ -53,6 +58,10 @@
     * _pagination.scss
     * _table.scss
 * **application**
+    * sections
+        * _footer.scss
+        * _header.scss
+        * _headline.scss
     * layouts
         * base.scss
         * auth.scss
@@ -62,11 +71,6 @@
         * contact.scss
         * faq.scss
         * error.scss
-    * sections
-        * _footer.scss
-        * _header.scss
-        * _headline.scss
-        
         
 ## Пример файла для простой сборки
 
@@ -88,15 +92,15 @@ SCSS в один CSS файл:
 @import 'modules/pagination';
 @import 'modules/table';
 
-// Application/Layouts
-@import 'application/layouts/base.scss';
-@import 'application/layouts/auth.scss';
-@import 'application/layouts/modal.scss';
-
 // Application/Sections
 @import 'application/sections/header';
 @import 'application/sections/footer';
 @import 'application/sections/headline';
+
+// Application/Layouts
+@import 'application/layouts/base.scss';
+@import 'application/layouts/auth.scss';
+@import 'application/layouts/modal.scss';
 
 // Application/Pages
 @import 'application/pages/home.scss';
