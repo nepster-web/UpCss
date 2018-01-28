@@ -1,0 +1,124 @@
+/*.alert {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 15px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin: 0 auto;
+    text-align: left;
+    
+    .svg-icon{
+        max-width: 20px;
+        max-height: 20px;
+        width: 100%;
+        height: 100%;
+        opacity: 0.6;
+    }
+    .alert-text{
+        margin-left: 10px;
+        margin-bottom: 0;
+    }
+    
+    &-info {
+        background-color: #d9edf7;
+        border-color: #bce8f1;
+        color: #31708f;
+    }
+}*/
+
+
+
+
+
+.alert {
+    box-shadow: 0 1px 2px rgba(0,0,0,0.11);
+    display: table;
+    width: 100%;
+    max-width: 500px;
+    background-image: linear-gradient(to bottom, #fff, #f9f9f9);
+    border: solid 1px #bdbdbd;
+    color: #404040;
+    padding: 15px;
+    padding-left: 61px;
+    position: relative;
+    border-radius: 4px;
+    margin: 0 auto;
+    text-align: left;
+
+    .icon {
+        text-align: center;
+        width: 45px;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        border: 1px solid #bdbdbd;
+        padding-top: 15px;
+
+        &:after {
+            transform: rotate(45deg);
+            display: block;
+            content: '';
+            width: 10px;
+            height: 10px;
+            border: 1px solid #bdbdbd;
+            position: absolute;
+            border-left: 0;
+            border-bottom: 0;
+            top: 50%;
+            right: -6px;
+            margin-top: -5px;
+            background: #fff;
+        }
+
+        i {
+            font-size: 20px;
+            color: #fff;
+            left: 12px;
+            margin-top: -10px;
+            position: absolute;
+            top: 50%;
+        }
+    }
+}
+
+.alert-info {
+    background-color: lighten($color-info, 20%);
+    border-color: $color-info;
+    color: darken($color-info, 20%);
+    .icon, .icon:after {
+        border-color: $color-info;
+        background: $color-info;
+    }
+}
+
+.alert-danger {
+    background-color: lighten($color-danger, 20%);
+    border-color: $color-danger;
+    color: $color-danger;
+    .icon, .icon:after {
+        border-color: $color-danger;
+        background: $color-danger;
+    }
+}
+
+.alert-success {
+    background-color: lighten($color-success, 20%);
+    border-color: $color-success;
+    color: darken($color-success, 20%);
+    .icon, .icon:after {
+        border-color: $color-success;
+        background: $color-success;
+    }
+}
+
+.alert-warning {
+    background-color: lighten($color-warning, 20%);
+    border-color: $color-warning;
+    color: darken($color-warning, 20%);
+    .icon, .icon:after {
+        border-color: $color-warning;
+        background: $color-warning;
+    }
+}

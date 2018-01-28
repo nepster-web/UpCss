@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "devDependencies": {
+    "gulp": "*",
+    "gulp-load-plugins": "*",
+    "gulp-autoprefixer": "*",
+    "gulp-preprocess": "*",
+    "gulp-imagemin": "*",
+    "gulp-clean-css": "*",
+    "gulp-rename": "*",
+    "gulp-rigger": "*",
+    "gulp-sass": "*",
+    "gulp-sourcemaps": "*",
+    "gulp-uglify": "*",
+    "gulp-watch": "*"
+  }
+}
