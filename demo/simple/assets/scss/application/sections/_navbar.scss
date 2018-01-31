@@ -1,0 +1,33 @@
+.navbar {
+    background-color: #343a40;
+    padding: .5rem 1rem;
+
+    .container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    &-nav {
+        display: flex;
+        flex-direction: row;
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+        margin-left: auto;
+    }
+
+    a {
+        color: rgba(255,255,255,.5);
+        display: block;
+        padding: .5rem;
+        &:hover {
+            color: rgba(255,255,255,.7);
+        }
+    }
+
+    .is-active {
+        a {
+            color: #ffffff;
+        }
+    }
+}

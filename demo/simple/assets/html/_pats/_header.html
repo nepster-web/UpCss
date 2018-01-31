@@ -1,3 +1,0 @@
-<header>
-    Header
-</header>

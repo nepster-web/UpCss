@@ -1,3 +1,15 @@
 .p-contacts {
 
+    .navbar {
+        .is-active {
+            a {
+                color: rgba(255,255,255,.5);
+            }
+        }
+        li:nth-child(3) {
+            a {
+                color: #ffffff !important;
+            }
+        }
+    }
 }

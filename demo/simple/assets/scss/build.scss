@@ -5,10 +5,8 @@
 
 
 // Modules
-@import 'modules/alerts';
 @import 'modules/buttons';
-@import 'modules/forms';
-@import 'modules/table';
+@import 'modules/pagination';
 
 
 // Application/Layouts
@@ -16,7 +14,7 @@
 
 
 // Application/Sections
-@import 'application/sections/header';
+@import 'application/sections/navbar';
 @import 'application/sections/footer';
 
 

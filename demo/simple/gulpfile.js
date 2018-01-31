@@ -22,7 +22,7 @@ gulp.task('sass', function() {
         .pipe($.sass().on('error', $.sass.logError))
         .pipe($.autoprefixer())
         .pipe($.sourcemaps.write())
-        .pipe($.minifyCss())
+        .pipe($.cleanCss())
         .pipe($.rename('app.min.css'))
         .pipe(gulp.dest(publicPath + 'css'));
 });
