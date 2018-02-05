@@ -42,7 +42,7 @@ navigation и другие секции, которые могут исполь�
 [Подробнее про Application](./upCss-application.md)
 
 
-## Пример базовой структуры UpCss
+## Пример структуры UpCss для простого приложения
 
 * **build.scss**
 * **base**
@@ -71,52 +71,7 @@ navigation и другие секции, которые могут исполь�
         * contact.scss
         * faq.scss
         * error.scss
-        
-## Пример файла для простой сборки
-
-В качестве простого примера, представлен файл **build.scss** для компиляции
-SCSS в один CSS файл:
-
-```
-// Base
-@import 'base/reset';
-@import 'base/mixins';
-@import 'base/config';
-@import 'base/fonts';
-@import 'base/grid';
-
-// Modules
-@import 'modules/alerts';
-@import 'modules/buttons';
-@import 'modules/forms';
-@import 'modules/pagination';
-@import 'modules/table';
-
-// Application/Sections
-@import 'application/sections/header';
-@import 'application/sections/footer';
-@import 'application/sections/headline';
-
-// Application/Layouts
-@import 'application/layouts/base.scss';
-@import 'application/layouts/auth.scss';
-@import 'application/layouts/modal.scss';
-
-// Application/Pages
-@import 'application/pages/home.scss';
-@import 'application/pages/contact.scss';
-@import 'application/pages/faq.scss';
-@import 'application/pages/error.scss';
-```
-
-В небольшом проекте приемлемо на выходе получить один CSS файл 
-со всеми стилями, минифицировать и сжать его.
-К примеру это может быть styles.min.css.
-
-[Посмотреть пример сборки](../additionally/build.md)
 
 --------
 
-[Перейти к изучению базовых правил](./base-rules.md)
-
-[Перейти к изучению соглашения о именовании](./naming-convention.md)
+[Перейти к документации](https://github.com/nepster-web/UpCss#%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F)
