@@ -3,6 +3,8 @@
 Это методология, которая предоставляет решение по созданию гибкой 
 архитектуры CSS-кода. 
 
+![UpCss example](./doc/_images/example_structure.png)
+
 
 ## Для чего это?
 
@@ -33,12 +35,14 @@ UpCss - не является framework`ом и не требует никаки
     * [Введение](./doc/preface/introduction.md)
     * [Про UpCss](./doc/preface/about.md)
 * **UpCss**
-    * [Базовые правила](./doc/core/base-rules.md)
     * [Структура](./doc/core/structure.md)
-        * [Базис](./doc/core/upCss-base.md)
-        * [Модули](./doc/core/upCss-modules.md)
-        * [Приложение](./doc/core/upCss-application.md)
-    * [Политика именования](./doc/core/naming-convention.md)
+        * [Base](./doc/core/upCss-base.md)
+        * [Modules](./doc/core/upCss-modules.md)
+        * [Application](./doc/core/upCss-application.md)
+            * [Sections](./doc/core/upCss-application.md#sections-Секции)
+            * [Layouts](./doc/core/upCss-application.md#layouts-Каркасы)
+            * [Pages](./doc/core/upCss-application.md#pages-Страницы)
+    * [Общие правила](./doc/core/total-rules.md)
 * **Дополнительно**
     * [Работа с селекторами](./doc/additionally/work-with-selectors.md)
 
