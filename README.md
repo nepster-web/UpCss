@@ -28,8 +28,6 @@ UpCss - не является framework`ом и не требует никаки
 
 ## Документация
 
-<img align="right" src="./doc/_images/example_structure.png">
-<br><br>
 Ознакомьтесь более детально с техническими аспектами UpCss:
 
 * **Предисловие**
