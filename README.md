@@ -34,11 +34,11 @@ UpCss - не является framework`ом и не требует никаки
     * [Про UpCss](./doc/preface/about.md)
 * **UpCss**
     * [Базовые правила](./doc/core/base-rules.md)
-    * [Политика именования](./doc/core/naming-convention.md)
     * [Структура](./doc/core/structure.md)
         * [Базис](./doc/core/upCss-base.md)
         * [Модули](./doc/core/upCss-modules.md)
         * [Приложение](./doc/core/upCss-application.md)
+    * [Политика именования](./doc/core/naming-convention.md)
 * **Дополнительно**
     * [Работа с селекторами](./doc/additionally/work-with-selectors.md)
 
