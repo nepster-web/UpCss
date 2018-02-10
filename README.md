@@ -1,9 +1,9 @@
 # UpCss
 
+<img align="right" src="./doc/_images/example_structure.png">
+
 Это методология, которая предоставляет решение по созданию гибкой 
 архитектуры CSS-кода. 
-
-![UpCss example](./doc/_images/example_structure.png)
 
 
 ## Для чего это?
