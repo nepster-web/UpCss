@@ -2,12 +2,7 @@
 
 Обычно файловая структура UpCss выглядит следующим образом:
 
-* base
-* modules
-* application
-  * sections
-  * layouts
-  * pages
+![General structure example](../_images/example_structure_general.png)
 
 Далее рассмотрим каждый каталог индивидуально.
 
