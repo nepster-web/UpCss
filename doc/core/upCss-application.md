@@ -9,7 +9,7 @@
 Директория **application** обычно включает три основные поддиректории:
 **sections**, **layouts** и **pages**.
 
-[Общие правила, применяемые к приложению](./total-rules.md#Application)
+[Общие правила, применяемые к приложению](./total-rules.md#application)
 
 
 ## Sections (Секции)
