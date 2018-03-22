@@ -43,7 +43,9 @@ UpCss - не является framework`ом и не требует никаки
             * [Pages](./doc/core/upCss-application.md#pages-Страницы)
     * [Общие правила](./doc/core/total-rules.md)
 * **Дополнительно**
+    * [Структура и именование](./doc/additionally/structure-and-naming.md)
     * [Работа с селекторами](./doc/additionally/work-with-selectors.md)
+    * [Рекомендации](./doc/additionally/recommendations.md)
 
 
 ## Лицензия
