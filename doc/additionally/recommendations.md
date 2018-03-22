@@ -10,6 +10,6 @@
 
 --------
 
-[Вернуться назад к структуре и именованию](./doc/additionally/structure-and-naming.md)
+[Вернуться назад к структуре и именованию](./structure-and-naming.md)
 
 [Вернуться назад к работе с селекторами](./work-with-selectors.md)
