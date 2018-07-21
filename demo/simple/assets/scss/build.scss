@@ -1,0 +1,24 @@
+// Base
+@import 'base/reset';
+@import 'base/config';
+@import 'base/global';
+
+
+// Modules
+@import 'modules/buttons';
+@import 'modules/pagination';
+
+
+// Application/Layouts
+@import 'application/layouts/base.scss';
+
+
+// Application/Sections
+@import 'application/sections/navbar';
+@import 'application/sections/footer';
+
+
+// Application/Pages
+@import 'application/pages/home.scss';
+@import 'application/pages/contact.scss';
+@import 'application/pages/static.scss';
