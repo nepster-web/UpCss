@@ -1,0 +1,15 @@
+@import 'utilities';
+
+
+// Base
+@import '../base/reset';
+@import '../base/global';
+
+
+// Layouts
+@import '../application/layouts/base';
+
+
+// Sections
+@import '../application/sections/navbar';
+@import '../application/sections/footer';

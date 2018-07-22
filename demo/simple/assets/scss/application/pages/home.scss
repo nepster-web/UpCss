@@ -1,24 +1,47 @@
 .p-home {
 
     .projects {
+        width: 100%;
         margin-bottom: 1rem;
 
         .project {
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
             padding-bottom: 1rem;
             margin-bottom: 1rem;
-            border-bottom: 1px solid rgba(0,0,0,.1);
+            border-bottom: 1px solid $color-border-separator;
+
+            @include tablet() {
+                min-width: 400px;
+                flex-direction: row;
+            }
 
             &-present {
-                min-width: 700px;
+
+                @include tablet() {
+                    min-width: 420px;
+                }
+
+                @include tablet-land() {
+                    min-width: 600px;
+                }
+
+                @include desktop() {
+                    min-width: 700px;
+                }
+
                 img {
                     border-radius: 4px;
+                    display: block;
                 }
             }
 
             &-info {
-                padding: 0 0 0 2rem;
+                padding: 0;
+
+                @include tablet() {
+                    padding: 0 0 0 2rem;
+                }
 
                 .btn {
                     margin-top: 1rem;
@@ -27,7 +50,12 @@
 
             &-name {
                 font-size: 2rem;
-                margin-bottom: 0.5rem;
+                line-height: 1;
+                margin: 0.5rem 0;
+
+                @include tablet() {
+                    margin: 0 0 0.5rem 0;
+                }
             }
         }
 

@@ -19,6 +19,7 @@ body {
     color: $color-base;
     font-family: $font-base;
     font-size: 16px;
+    min-width: 360px;
 
     line-height: 1.4;
 
@@ -62,9 +63,25 @@ strong, b {
 
 .container {
     width: 100%;
-    max-width: 1200px;
+    max-width: 768px;
     margin: 0 auto;
     padding: 0 15px;
+
+    @include phone-land() {
+        max-width: 544px;
+    }
+
+    @include tablet() {
+        max-width: 768px;
+    }
+
+    @include tablet-land() {
+        max-width: 1024px;
+    }
+
+    @include desktop() {
+        max-width: 1200px;
+    }
 }
 
 .text {

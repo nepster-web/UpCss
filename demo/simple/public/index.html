@@ -2,9 +2,12 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>UpCss - simple example</title>
+    <title>UpCss - simple example - Home</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i,900,900i&amp;subset=cyrillic" rel="stylesheet">
     <link href="css/app.min.css" rel="stylesheet" />
+    <link href="css/modules/pagination.min.css" rel="stylesheet" />
+    <link href="css/modules/buttons.min.css" rel="stylesheet" />
+    <link href="css/pages/home.min.css" rel="stylesheet" />
 </head>
 <body class="l-base p-home">
 
@@ -29,7 +32,7 @@
                     <img src="http://placehold.it/700x300" alt="" />
                 </div>
                 <div class="project-info">
-                    <h3 class="project-name">Project One</h3>
+                    <h3 class="project-name">Project Name</h3>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                         Laudantium veniam exercitationem expedita
@@ -37,7 +40,7 @@
                         deserunt rem magni pariatur quos perspiciatis
                         atque eveniet unde.
                     </p>
-                    <a class="btn btn-info" href="#">View Project</a>
+                    <a class="btn btn-info" href="project.html">View Project</a>
                 </div>
             </div>
             <div class="project">
@@ -45,7 +48,7 @@
                     <img src="http://placehold.it/700x300" alt="" />
                 </div>
                 <div class="project-info">
-                    <h3 class="project-name">Project One</h3>
+                    <h3 class="project-name">Project Name</h3>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                         Laudantium veniam exercitationem expedita
@@ -53,7 +56,7 @@
                         deserunt rem magni pariatur quos perspiciatis
                         atque eveniet unde.
                     </p>
-                    <a class="btn btn-info" href="#">View Project</a>
+                    <a class="btn btn-info" href="project.html">View Project</a>
                 </div>
             </div>
             <div class="project">
@@ -61,7 +64,7 @@
                     <img src="http://placehold.it/700x300" alt="" />
                 </div>
                 <div class="project-info">
-                    <h3 class="project-name">Project One</h3>
+                    <h3 class="project-name">Project Name</h3>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                         Laudantium veniam exercitationem expedita
@@ -69,7 +72,7 @@
                         deserunt rem magni pariatur quos perspiciatis
                         atque eveniet unde.
                     </p>
-                    <a class="btn btn-info" href="#">View Project</a>
+                    <a class="btn btn-info" href="project.html">View Project</a>
                 </div>
             </div>
             <div class="project">
@@ -77,7 +80,7 @@
                     <img src="http://placehold.it/700x300" alt="" />
                 </div>
                 <div class="project-info">
-                    <h3 class="project-name">Project One</h3>
+                    <h3 class="project-name">Project Name</h3>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                         Laudantium veniam exercitationem expedita
@@ -85,7 +88,7 @@
                         deserunt rem magni pariatur quos perspiciatis
                         atque eveniet unde.
                     </p>
-                    <a class="btn btn-info" href="#">View Project</a>
+                    <a class="btn btn-info" href="project.html">View Project</a>
                 </div>
             </div>
             <div class="project">
@@ -93,7 +96,7 @@
                     <img src="http://placehold.it/700x300" alt="" />
                 </div>
                 <div class="project-info">
-                    <h3 class="project-name">Project One</h3>
+                    <h3 class="project-name">Project Name</h3>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                         Laudantium veniam exercitationem expedita
@@ -101,7 +104,7 @@
                         deserunt rem magni pariatur quos perspiciatis
                         atque eveniet unde.
                     </p>
-                    <a class="btn btn-info" href="#">View Project</a>
+                    <a class="btn btn-info" href="project.html">View Project</a>
                 </div>
             </div>
             <div class="project">
@@ -109,7 +112,7 @@
                     <img src="http://placehold.it/700x300" alt="" />
                 </div>
                 <div class="project-info">
-                    <h3 class="project-name">Project One</h3>
+                    <h3 class="project-name">Project Name</h3>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                         Laudantium veniam exercitationem expedita
@@ -117,7 +120,7 @@
                         deserunt rem magni pariatur quos perspiciatis
                         atque eveniet unde.
                     </p>
-                    <a class="btn btn-info" href="#">View Project</a>
+                    <a class="btn btn-info" href="project.html">View Project</a>
                 </div>
             </div>
             <div class="project">
@@ -125,7 +128,7 @@
                     <img src="http://placehold.it/700x300" alt="" />
                 </div>
                 <div class="project-info">
-                    <h3 class="project-name">Project One</h3>
+                    <h3 class="project-name">Project Name</h3>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                         Laudantium veniam exercitationem expedita
@@ -133,27 +136,18 @@
                         deserunt rem magni pariatur quos perspiciatis
                         atque eveniet unde.
                     </p>
-                    <a class="btn btn-info" href="#">View Project</a>
+                    <a class="btn btn-info" href="project.html">View Project</a>
                 </div>
             </div>
         </div>
 
         <ul class="pagination">
-            <li>
-                <a href="#">
-                    <span>&laquo;</span>
-                </a>
-            </li>
+            <li><a href="#"><span>&laquo;</span></a></li>
             <li><a href="#">1</a></li>
             <li class="is-active"><a href="#">2</a></li>
             <li><a href="#">3</a></li>
-            <li>
-                <a href="#">
-                    <span>&raquo;</span>
-                </a>
-            </li>
+            <li><a href="#"><span>&raquo;</span></a></li>
         </ul>
-        
 
     </main>
 

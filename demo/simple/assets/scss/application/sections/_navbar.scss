@@ -1,12 +1,16 @@
 .navbar {
     background-color: #343a40;
-    padding: .5rem 1rem;
+    padding: .5rem 0;
     line-height: 1;
 
     &-brand {
+        padding: .5rem 0;
         color: #ffffff;
-        padding: .4rem;
-        font-size: 120%;
+
+        @include phone-land() {
+            font-size: 120%;
+            padding: .4rem 0;
+        }
     }
 
     .container {
@@ -30,7 +34,6 @@
             }
         }
     }
-
 
     .is-active {
         a {

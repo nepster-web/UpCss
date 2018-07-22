@@ -1,0 +1,35 @@
+@mixin phone() {
+    @media (min-width: 544px) {
+        @content;
+    }
+}
+
+@mixin phone-land() {
+    @media (min-width: 544px) and (orientation: landscape) {
+        @content;
+    }
+}
+
+@mixin tablet() {
+    @media (min-width: 768px) {
+        @content;
+    }
+}
+
+@mixin tablet-land() {
+    @media (min-width: 1024px) {
+        @content;
+    }
+}
+
+@mixin desktop() {
+    @media (min-width: 1200px) {
+        @content;
+    }
+}
+
+@mixin desktop-large() {
+    @media (min-width: 1400px) {
+        @content;
+    }
+}

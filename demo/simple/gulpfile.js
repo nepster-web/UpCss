@@ -9,28 +9,34 @@ let gulp = require('gulp'),
 
 
 // HTML Build
-gulp.task('html', function(callback) {
-    return gulp.src(assetsPath + 'html/*.html')
+gulp.task('html', function(done) {
+    gulp.src(assetsPath + 'html/*.html')
         .pipe($.preprocess({context: {}}))
         .pipe(gulp.dest(publicPath));
+
+    done();
 });
 
 // SCSS Build
-gulp.task('sass', function() {
-    return gulp.src(assetsPath + 'scss/build.scss')
-        .pipe($.sourcemaps.init())
+gulp.task('sass', function(done) {
+    gulp.src( assetsPath + 'scss/_build/**/*.scss')
         .pipe($.sass().on('error', $.sass.logError))
         .pipe($.autoprefixer())
-        .pipe($.sourcemaps.write())
         .pipe($.cleanCss())
-        .pipe($.rename('app.min.css'))
+        .pipe($.rename({
+            suffix: ".min"
+        }))
         .pipe(gulp.dest(publicPath + 'css'));
+
+    done();
 });
 
 // Watch files
-gulp.task('watch', ['html', 'sass'], function() {
+gulp.task('watch', ['html', 'sass'], function(done) {
     gulp.watch(assetsPath + 'html/**/*.html', ['html']);
     gulp.watch(assetsPath + 'scss/**/*.scss', ['sass']);
+
+    done();
 });
 
 // Build
