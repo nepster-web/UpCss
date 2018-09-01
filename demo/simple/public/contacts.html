@@ -6,6 +6,8 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i,900,900i&amp;subset=cyrillic" rel="stylesheet">
     <link href="css/app.min.css" rel="stylesheet" />
     <link href="css/pages/contact.min.css" rel="stylesheet" />
+    <link href="css/modules/form.min.css" rel="stylesheet" />
+    <link href="css/modules/buttons.min.css" rel="stylesheet" />
 </head>
 <body class="l-base p-contacts">
     <nav class="navbar">
@@ -20,7 +22,34 @@
     </nav>
 
     <main class="container">
-        ----
+        <h1 class="central-title"><span>Contact form</span></h1>
+
+        <form action="#" method="post" class="contact-form">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Alias magnam soluta totam? Aliquid doloremque doloribus officia soluta. Ad, dignissimos perferendis!
+            </p>
+            <div class="form-group contact-compact-input">
+                <input type="text" class="form-control" name="name" placeholder="Name" required>
+            </div>
+            <div class="form-group contact-compact-input">
+                <input type="text" class="form-control" name="email" placeholder="Email" required>
+            </div>
+            <div class="form-group contact-compact-input">
+                <input type="text" class="form-control" name="mobile" placeholder="Mobile Number" required>
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" name="subject" placeholder="Subject" required>
+            </div>
+            <div class="form-group">
+                <textarea class="form-control" placeholder="Message"></textarea>
+            </div>
+
+            <div class="text-center">
+                <button type="button" name="submit" class="btn btn-info">Submit Form</button>
+            </div>
+        </form>
+
     </main>
 
     <footer class="footer">

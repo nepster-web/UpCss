@@ -1,3 +1,7 @@
+// TODO: комментарии
+
+
+
 .p-contacts {
 
     .navbar {
@@ -12,4 +16,15 @@
             }
         }
     }
+
+    .contact-compact-input {
+        max-width: 65%;
+        min-width: 200px;
+    }
+
+    .contact-form {
+        max-width: 500px;
+        margin: 0 auto 2rem auto;
+    }
+
 }

@@ -1,9 +1,23 @@
+// TODO: комментарии
+
+
+
 .l-base {
 
     .main-title {
         font-size: 2rem;
         margin: 1rem 0;
         line-height: 1;
+    }
+
+    .central-title {
+        @extend .main-title;
+        text-align: center;
+        display: block;
+        margin: 2rem 0;
+        > span {
+            border-bottom: dashed 1px;
+        }
     }
 
 }

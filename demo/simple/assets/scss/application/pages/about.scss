@@ -1,0 +1,58 @@
+// TODO: комментарии
+
+
+
+.p-about {
+
+    .navbar {
+        .is-active {
+            a {
+                color: rgba(255,255,255,.5);
+            }
+        }
+        li:nth-child(2) {
+            a {
+                color: #ffffff !important;
+            }
+        }
+    }
+
+    .info {
+
+        &-item {
+            display: flex;
+            flex-direction: column;
+            border-bottom: solid 1px $color-border-separator;
+            padding-bottom: 1rem;
+            margin-bottom: 1rem;
+
+
+            @include tablet() {
+                flex-direction: row;
+                align-items: center;
+            }
+
+            &-icon {
+                width: 100px;
+                height: 100px;
+                flex-shrink: 0;
+                margin: 0 auto 1rem auto;
+                order: 0;
+
+                @include tablet() {
+                    order: initial;
+                    margin: 0 3rem;
+                }
+            }
+            &-description {
+                flex-grow: 1;
+                order: 1;
+
+                @include tablet() {
+                    order: initial;
+                }
+            }
+        }
+    }
+
+}

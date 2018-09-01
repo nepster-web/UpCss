@@ -61,6 +61,14 @@ strong, b {
     font-weight: 600;
 }
 
+p {
+    margin-bottom: 1rem;
+
+    &:last-of-type {
+        margin-bottom: 0;
+    }
+}
+
 .container {
     width: 100%;
     max-width: 768px;
