@@ -7,7 +7,6 @@
     white-space: nowrap;
     text-decoration: none;
     letter-spacing: .015em;
-    // text-transform: uppercase;
     color: $color-base;
     border: 1px solid transparent;
     border-radius: 4px;
@@ -19,7 +18,6 @@
     line-height: 35px;
 
     &:hover {
-        // transform: translateY(-1px);
         color: inherit;
         box-shadow: 0 7px 14px rgba($color-base, .1), 0 3px 6px rgba($color-base, .08);
     }
