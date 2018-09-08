@@ -91,3 +91,5 @@ div:nth-of-type(3) ul:last-child li:nth-of-type(odd) * { font-weight:bold }
 [Вернуться назад к структуре классов и именованию](./class-structure-and-naming.md)
 
 [Читать рекомендации](./recommendations.md)
+
+[Перейти к документации](https://github.com/nepster-web/UpCss#%D0%94%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F)
